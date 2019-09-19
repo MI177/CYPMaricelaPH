@@ -1,0 +1,16 @@
+#EJERCICIO 27
+
+MAT = int (input("Ingresa tu matricula: "))
+n1 = int(input("Ingresa tu calificacion 1: "))
+n2 = int(input("Ingresa tu calificacion 2: "))
+n3 = int(input("Ingresa tu calificacion 3: "))
+n4 = int(input("Ingresa tu calificacion 4: "))
+n5 = int(input("Ingresa tu calificacion 5: "))
+
+Promedio = (n1+n2+n3+n4+n5)/5
+
+if Promedio >= 6:
+    print (MAT,Promedio, "Pasaste")
+else:
+    print (Mat,Promedio, "Reprobaste")
+
