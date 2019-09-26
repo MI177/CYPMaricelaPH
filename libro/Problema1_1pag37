@@ -1,8 +1,0 @@
-#Programa que da cambio
-
-PREPRO = float(input("Dame el precio del producto  "))
-PAGO = float(input("Dame el valor del pago  "))
-
-DEVO = PAGO - PREPRO
-
-print("El valor de la devolución es ", DEVO)
