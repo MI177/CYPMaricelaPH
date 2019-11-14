@@ -24,3 +24,13 @@ archivo=open("numeros.txt","rt")
 numeros3=archivo.readline()
 print(numeros3)
 archivo.close()
+
+for v in range (len(numeros2)):
+    numeros2[v]=str(numeros2[v].strip())
+print(float(numeros2))
+archivo.close()
+
+archivo=open("numeros.txt","rt")
+numeros2=archivo.readline()
+print(numeros2)
+archivo.close()
