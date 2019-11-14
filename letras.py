@@ -1,10 +1,9 @@
-import Terminal-Text-Color
-from Terminal-Text-Color import text_color
+from stringcolor import *
 
 
-print(default_yellow("Universidad Autonoma de México"))
-print(default_blue("FES Aragón"))
-print(default_green("Pérez Hernández Maricela Isabel"))
+print(cs("Universidad Autonoma de México","gold"))
+print(cs("FES Aragón","blue"))
+print(cs("Pérez Hernández Maricela Isabel","green"))
 
 
 
